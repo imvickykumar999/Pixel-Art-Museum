@@ -1,0 +1,87 @@
+
+Windows + R : services.msc
+Start MYSQL80 Service
+
+D:\Ducat\SQL>mysql -u root -p
+Enter password: ****
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 18
+Server version: 8.0.45 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2026, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> source D:/YouTube/Pixel Art Museum/Pixel Art Museum.sql;
+Query OK, 4 rows affected (0.11 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.05 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.02 sec)
+
+Query OK, 1 row affected (0.02 sec)
+
++-----------------+----------------+---------------------+---------+--------+
+| name            | role           | timestamp           | area_id | action |
++-----------------+----------------+---------------------+---------+--------+
+| Elena Rodriguez | IT Specialist  | 2026-02-12 22:05:00 | A3      | entry  |
+| Vicky Kumar     | Database Admin | 2026-02-12 22:10:00 | A3      | entry  |
+| Vicky Kumar     | Database Admin | 2026-02-12 22:12:00 | A3      | exit   |
+| Elena Rodriguez | IT Specialist  | 2026-02-12 22:20:00 | A3      | exit   |
++-----------------+----------------+---------------------+---------+--------+
+4 rows in set (0.01 sec)
+
++-----------------+---------------+
+| name            | role          |
++-----------------+---------------+
+| Elena Rodriguez | IT Specialist |
++-----------------+---------------+
+1 row in set (0.00 sec)
+
+mysql> exit
+Bye
+
+D:\Ducat\SQL>

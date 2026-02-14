@@ -1,0 +1,55 @@
+What is the Badge ID assigned to Curator Sarah Jenkins?,101
+Who holds the role of Database Admin at the Pixel Art Museum?,Vicky Kumar
+"What is the Badge ID for Marcus Thorne, the Security Lead?",103
+Which employee is the IT Specialist with Badge ID 104?,Elena Rodriguez
+What is the role of James Bond (Badge ID 105)?,Intern
+On what date did Sarah Jenkins join the museum staff?,3/15/2022
+What is the join date for Elena Rodriguez?,5/2/2025
+What is the join date recorded for Vicky Kumar?,1/10/2024
+Which area of the museum is designated as Area ID A1?,Main Lobby
+What is the security level required for the Digital Vault (Area ID A2)?,5
+Which area name corresponds to Area ID A3?,Server Room
+What is the security level for the Employee Lounge (Area ID A4)?,2
+Which area is designated as Area ID A5?,Curator's Office
+What is the security level of the Main Lobby?,1
+What security level is assigned to the Server Room (A3)?,4
+What security level is required for the Curator's Office (A5)?,3
+What is the ID for the incident involving the deleted digital masterpiece?,INC-99
+What was the name of the digital masterpiece deleted from the museum server?,Pixel Mona Lisa
+At what specific time did the deletion of the 'Pixel Mona Lisa' occur?,2/12/2026 22:15
+Which SQL command was initially used to identify the Area ID for the 'Server Room'?,SELECT * FROM gallery_access;
+Which SQL command was used to audit security logs specifically for the Server Room (A3)?,SELECT * FROM security_logs WHERE area_id = 'A3';
+"According to the security logs, at what time did Badge 104 enter Area A3?",22:05:00
+"According to the security logs, at what time did Badge 104 exit Area A3?",22:20:00
+At what time did Badge 102 enter the Server Room (A3)?,22:10:00
+At what time did Badge 102 exit the Server Room (A3)?,22:12:00
+Why was Badge 104 the primary suspect for the 22:15:00 deletion?,They were the only person in the Server Room at the time of the crime.
+Which SQL command was used to retrieve the name and role of the suspect (Badge 104)?,"SELECT name, role FROM employees WHERE badge_id = 104;"
+Who was identified as the culprit of the digital masterpiece deletion?,Elena Rodriguez
+What sabotage did Elena Rodriguez perform after being caught?,She set everyone's salary to 1.
+Which specific currency unit was used in Elena's 'scorched earth' salary sabotage?,Rupee
+Which SQL command restored Vicky Kumar's salary to its correct value?,UPDATE employees SET salary = 82000 WHERE badge_id = 102;
+What is the restored salary amount for the Database Admin (Badge 102)?,82000
+"What SQL keyword did Elena Rodriguez omit, causing her sabotage to affect all employees?",WHERE
+"In the security logs, which Badge ID is associated with event_id 5001?",101
+What action did Marcus Thorne take in Area A5 at 22:30:00?,entry
+Which event_id records Badge 102 exiting Area A3?,5004
+Which event_id records the exit of the culprit from the Server Room?,5005
+"In the final state of the database, what is the salary of Curator Sarah Jenkins?",1
+"In the final state of the database, what is the salary of Security Lead Marcus Thorne?",1
+"What is the join date for the Intern, James Bond?",2/1/2026
+What was the specific event_id for the suspect's entry into the Server Room?,5002
+"In the context of the audit, what does Area ID A2 represent?",Digital Vault
+Which badge_id entered the Main Lobby (A1) at 21:00:00?,101
+What is the role of the person with Badge ID 104?,IT Specialist
+What is the core purpose of a WHERE clause in an SQL UPDATE command?,To filter the update to specific records rather than the whole table.
+How many total entries are present in the provided security_logs table?,6
+Which area has the highest security requirement level?,Digital Vault (Level 5)
+What was the specific description of incident INC-99?,"Digital Masterpiece ""Pixel Mona Lisa"" deleted from server."
+Which table contains the security levels for different museum locations?,gallery_access
+Which table links badge_ids to employee names and roles?,employees
+What is the final salary listed for Elena Rodriguez in the audit report?,1
+What is the final salary listed for James Bond in the audit report?,1
+Which event_id corresponds to the Database Admin's entry into the Server Room?,5003
+What was the date on which the museum incident and subsequent audit occurred?,2/12/2026
+Which employee record was the only one successfully recovered by the admin?,Badge 102 (Vicky Kumar)
